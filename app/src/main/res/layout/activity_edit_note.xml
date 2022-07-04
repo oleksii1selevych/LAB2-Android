@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4">
+
+        <ImageView
+            android:id="@+id/noteIconImageViewId"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="24dp"
+            app:srcCompat="@drawable/ic_baseline_image_24"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/addIconNoteBtn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="@string/select_btn_lable"
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/deleteIconNoteBtn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="match_parent"
+            android:text="@string/delete_btn_lable"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/importance_label"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/selectImportanceRateNote"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/black"
+            android:text="@string/title_label"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/noteTitleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/title_placeholder"
+            android:inputType="textMultiLine"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/description_label"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/noteDescriptionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:ems="10"
+            android:layout_weight="1"
+            android:hint="@string/description_placeholder"
+            android:inputType="textPersonName"
+            android:text="" />
+    </LinearLayout>
+</LinearLayout>
+
+
+

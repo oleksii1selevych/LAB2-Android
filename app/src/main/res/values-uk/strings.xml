@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Замітки</string>
+    <string name="app_title">Мої замітки</string>
+    <string name="ukrainian_lanuage">Українська</string>
+    <string name="enlish_lanuage">Англійська</string>
+    <string name="status_imp_all">Всі</string>
+    <string name="status_imp_low">Низький</string>
+    <string name="status_imp_mid">Середній</string>
+    <string name="status_imp_high">Високий</string>
+    <string name="change_language_label">Змінити мову</string>
+    <string name="icon_label">Зображення</string>
+    <string name="importance_label">Пріорітет</string>
+    <string name="description_label">Опис</string>
+    <string name="title_label">Назва</string>
+    <string name="title_placeholder">Введіть назву</string>
+    <string name="description_placeholder">Введіть опис</string>
+    <string name="save_btn_txt">Зберегти</string>
+    <string name="cancel_btn_txt">Відміна</string>
+    <string name="delete_btn_txt">Видалити</string>
+    <string name="edit_page_label">Редагувати нотаток</string>
+    <string name="select_btn_lable">Обрати картинку</string>
+    <string name="delete_btn_lable">Видалити видалити картинку</string>
+    <string name="add_page_label">Додати нотаток</string>
+    <string name="delete_message">Видалити нотаток?</string>
+    <string name="search_button_text">Шукати</string>
+
+</resources>
